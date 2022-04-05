@@ -1,0 +1,12 @@
+name: doublevkay/javascript-queries
+version: 0.0.1
+groups: 
+  - javascript
+  - queries
+suites: codeql-suites
+extractor: javascript
+defaultSuiteFile: codeql-suites/javascript-code-scanning.qls
+dependencies:
+  codeql/javascript-all: "*"
+  codeql/suite-helpers: "*"
+  doublevkay/javascript-all: "*"

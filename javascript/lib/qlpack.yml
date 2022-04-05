@@ -1,0 +1,8 @@
+name: doublevkay/javascript-all
+version: 0.0.1
+groups: javascript
+extractor: javascript
+library: true
+upgrades: upgrades
+dependencies:
+  codeql/javascript-all: "*"
